@@ -1,0 +1,4 @@
+Model,Type,Hyperparameters,n_features_in,n_train,n_test,R²,RMSE,MAE
+Linear Regression,LinearRegression,"{""fit_intercept"": true, ""copy_X"": true, ""n_jobs"": null}",40,118,29,0.25,2.35,1.8
+Random Forest Regressor,RandomForestRegressor,"{""n_estimators"": 500, ""max_depth"": null, ""random_state"": 42, ""n_jobs"": -1}",40,118,29,0.62,1.65,1.25
+Gradient Boosting,GradientBoostingRegressor,"{""learning_rate"": 0.05, ""n_estimators"": 600, ""max_depth"": 3, ""random_state"": 42}",40,118,29,0.71,1.42,1.1

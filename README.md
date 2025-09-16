@@ -150,14 +150,13 @@ Three models trained:
 
 ## 11. Figures
 
-- `fig_outfit_by_segment.png`
 - <img width="2272" height="1004" alt="image" src="https://github.com/user-attachments/assets/8ee91983-2e6a-4e0f-ac9e-0f32456fb504" />
-- `fig_shoppingfreq_by_segment.png`
 - <img width="2201" height="978" alt="image" src="https://github.com/user-attachments/assets/ea528415-a3d6-458a-a472-d87f97e67d6d" />
-- `fig_function_vs_aesthetic_by_segment.png`  
-- `fig_color_by_segment.png`  
-- `fig_style_by_age_heatmap.png`  
-- `fig_topstyle_by_age.png`
+- <img width="2226" height="964" alt="image" src="https://github.com/user-attachments/assets/8a40ccd6-df2b-458f-9947-b684efff4497" />
+- <img width="2184" height="959" alt="image" src="https://github.com/user-attachments/assets/7f745f3d-9bb9-4e47-aefe-0c0a1378f9aa" />
+- <img width="785" height="389" alt="Screenshot 2025-09-15 at 10 02 58 PM" src="https://github.com/user-attachments/assets/dcd45b89-d45d-4f6d-80b8-eb89b92143a3" />
+- <img width="835" height="483" alt="Screenshot 2025-09-15 at 10 03 28 PM" src="https://github.com/user-attachments/assets/2bfa4ff0-c902-4b1b-9a4f-c81be554ff61" />
+
 
 ---
 

@@ -14,7 +14,16 @@ Clothing choices are both practical and expressive, but not all individuals feel
 
 **Data:**  
 Survey responses (n≈150) capturing demographics (age, gender, profession), style preferences, shopping behaviors, lifestyle indicators, and a 1–10 self-reported *Satisfaction* score.
-
+- **Source:** survey of ~150 responses.  
+- **Variables:** 20 columns across demographics (Age, Gender, Profession), style preferences (OutfitType, ColorPalette, Wardrobe, Function vs Aesthetic), shopping habits (Frequency, Location, PurchaseInfluence), lifestyle (Activity, FormalEvents, ExperimentNewStyles), and **Satisfaction score** (1–10).  
+- **Cleaning:**  
+  - Renamed long survey items to concise labels (`OutfitType`, `ShoppingFrequency`, `ComfortImportance`, etc.).  
+  - Removed empty/junk columns.  
+  - Parsed timestamp → weekday/hour (not used for modeling).  
+  - Converted `Satisfaction` to numeric.  
+  - Dummy-encoded categoricals, standardized numeric features.  
+  - Expanded multi-select fields (ShoppingLocation → binary flags).  
+- **Final dataset:** 147 rows × 18 usable columns.
 ---
 
 ## 2. Data Wrangling
@@ -38,6 +47,7 @@ Final cleaned dataset: **147 rows × 18 columns.**
 - Low (≤4): minority of respondents.  
 - Medium (5–6): ~20%.  
 - High (≥7): majority, indicating most respondents are relatively satisfied.
+Most respondents reported **medium to high satisfaction** (≥5), with a smaller group in the **low satisfaction (≤4)** range. This skew informs how we interpret differences across groups.
 
 ### 3.2 Key Behaviors by Satisfaction Segment
 

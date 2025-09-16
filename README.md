@@ -96,14 +96,8 @@ Three models trained:
 ---
 
 ## 6. Model Comparison
+<img width="504" height="128" alt="Screenshot 2025-09-15 at 10 05 53 PM" src="https://github.com/user-attachments/assets/cd0219cb-85b8-4d18-9a21-2aad9877a136" />
 
-| Model                  | R²   | RMSE  | MAE  |
-|-------------------------|------|-------|------|
-| Linear Regression       | …    | …     | …    |
-| Random Forest Regressor | …    | …     | …    |
-| Gradient Boosting       | …    | …     | …    |
-
-*(Populate with your notebook’s actual evaluation metrics.)*
 
 **Best Model:** Gradient Boosting — consistently lowest error, highest R².
 
